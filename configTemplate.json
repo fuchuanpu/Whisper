@@ -1,0 +1,60 @@
+{
+    "Analyzer": {
+        "pause_time": 1000,
+
+        "n_fft": 50,
+        "mean_win_train": 50,
+        "mean_win_test": 100,
+        "num_train_sample": 50,
+        
+        "mode_verbose": true,
+        "center_verbose": false,
+        "init_verbose": true,
+        "speed_verbose": true,
+        "ip_verbose": true,
+        "verbose_ip_target": "220.127.196.241",
+        "verbose_center_core": 10,
+        "verbose_interval": 5.0,
+
+        "meta_pkt_arr_size": 10000000,
+        "result_buffer_size": 500000,
+
+        "save_to_file": true,
+        "save_dir": "../result/Template/",
+        "save_file_prefix": "Template"
+    },
+    "Learner": {
+        "val_K": 10,
+        "num_train_data": 10000,
+        "verbose": true,
+        "save_result": false,
+        "save_result_file": "",
+        "load_result": true,
+        "load_result_file": "../cache/20200101.json"
+    },
+    "DPDK" : {
+        "number_rx_queue": 16,
+        "number_tx_queue": 16,
+
+        "verbose": true,
+
+        "core_use_for_analyze": 8,
+        "core_use_for_parser": 8,
+        "core_num": 17,
+
+        "dpdk_port_vec": [0, 1]
+    },
+    "Parser": {
+        "verbose_mode_options": [
+            "init",
+            "tracing", 
+            "summarizing", 
+            "complete"
+        ],
+        "verbose_interval": 5.0,
+        "verbose_mode": "complete",
+        
+        "max_receive_burts": 64,
+        "meta_pkt_arr_size": 10000000
+    }
+}
