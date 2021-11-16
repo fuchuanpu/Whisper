@@ -15,7 +15,7 @@ ACM Conference on Computer and Communications Security (CCS 2021)
 
 ```
 
-> __Least Info:__ The readme is not completed yet :warning:.
+> __Latest Info:__ The readme is not completed yet :warning:.
 ---
 
 ## Background
