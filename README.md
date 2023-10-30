@@ -9,7 +9,7 @@
 The prototype source code of the paper:  
 ___Realtime Robust Malicious Traffic Detection via Frequency Domain Analysis___  
 [Chuanpu Fu](https://www.fuchuanpu.cn/), [Qi Li](https://sites.google.com/site/qili2012), [Meng Shen](https://cs.bit.edu.cn/szdw/jsml/js/shenmeng/index.htm), [Ke Xu](http://www.thucsnet.org/xuke.html).  
-ACM Conference on Computer and Communications Security (CCS 2021)
+ACM Conference on Computer and Communications Security ([CCS 2021](https://dl.acm.org/doi/10.1145/3460120.3484585))
 
 ``` bibtex
 @inproceedings{CCS21-Whisper,
@@ -64,9 +64,6 @@ Whisper used Pytorch C++ to implement matrix and sequence transformations. Downl
 4. __Install mlpcak__
 Whisper used mlpack for unsupervised learning. Please used the correct commands for C++ stable version in [mlpack Installation](https://www.mlpack.org/getstarted.html).
 
-> I will commit a script for software installation starting from a clean Ubuntu.
-
-> The docker image for Whisper is under testing and will be public soon.
 
 ---
 ## Usage
