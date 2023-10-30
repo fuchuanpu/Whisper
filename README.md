@@ -8,14 +8,24 @@
 
 The prototype source code of the paper:  
 ___Realtime Robust Malicious Traffic Detection via Frequency Domain Analysis___  
-Chuanpu Fu (Maintaniner), [Qi Li](https://sites.google.com/site/qili2012), [Meng Shen](https://cs.bit.edu.cn/szdw/jsml/js/shenmeng/index.htm), [Ke Xu](http://www.thucsnet.org/xuke.html).  
+[Chuanpu Fu](https://www.fuchuanpu.cn/), [Qi Li](https://sites.google.com/site/qili2012), [Meng Shen](https://cs.bit.edu.cn/szdw/jsml/js/shenmeng/index.htm), [Ke Xu](http://www.thucsnet.org/xuke.html).  
 ACM Conference on Computer and Communications Security (CCS 2021)
 
 ``` bibtex
-
+@inproceedings{CCS21-Whisper,
+  author       = {Chuanpu Fu and
+                  Qi Li and
+                  Meng Shen and
+                  Ke Xu},
+  title        = {Realtime Robust Malicious Traffic Detection via Frequency Domain Analysis},
+  booktitle    = {{CCS} '21: 2021 {ACM} {SIGSAC} Conference on Computer and Communications
+                  Security, Virtual Event, Republic of Korea, November 15 - 19, 2021},
+  pages        = {3431--3446},
+  publisher    = {{ACM}},
+  year         = {2021},
+}
 ```
 
-> __Latest Info:__ The readme is not completed yet :warning:.
 ---
 
 ## Background
